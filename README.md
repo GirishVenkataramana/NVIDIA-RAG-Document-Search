@@ -1,6 +1,6 @@
 # NVIDIA-RAG-Document-Search
 
-This project is a **Retrieval-Augmented Generation (RAG) application** developed using **Nvidia NIM** and **LangChain** with a **Streamlit** interface. It enables document embeddings and similarity-based question answering, designed around an 8th-grade textbook as a knowledge base.
+This project is a **Retrieval-Augmented Generation (RAG) application** developed using **Nvidia NIM** and **LangChain** with a **Streamlit** interface. It enables document embeddings and similarity-based question answering, designed to work with **annual reports** as the knowledge base.
 
 ## Features
 
@@ -12,7 +12,7 @@ This project is a **Retrieval-Augmented Generation (RAG) application** developed
 ## Project Structure
 
 - **main.py**: The main Streamlit app file containing the code for document embeddings, vector store setup, and query processing.
-- **8th_class_book/**: Directory containing PDF files used as the document source.
+- **annual_reports/**: Directory containing PDF files used as the document source.
 - **requirements.txt**: Lists required Python packages for the project.
 
 ## Setup
@@ -57,12 +57,12 @@ streamlit run main.py
 ## Usage
 
 1. **Document Embedding**: Click the "Document Embedding" button to embed the documents and store them in the FAISS vector database.
-2. **Ask Questions**: Enter your question based on the 8th-grade content in the input box and click "Submit." The app will retrieve relevant document context and generate an answer.
+2. **Ask Questions**: Enter your question based on the annual reports in the input box and click "Submit." The app will retrieve relevant document context and generate an answer.
 3. **Document Similarity Search**: Explore relevant document chunks to see where the answer was derived.
 
 ## Example
 
-![Example Screenshot](link_to_screenshot)
+![Example Screenshot](link_to_screenshot)  
 
 ## Technologies Used
 
@@ -74,4 +74,6 @@ streamlit run main.py
 ## License
 
 This project is licensed under the MIT License.
+
+--- 
 
